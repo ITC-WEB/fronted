@@ -440,3 +440,8 @@ header .btn-get-started:hover {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
+
+.about-image {
+  widht: 400px;
+  height: 300px;
+}
