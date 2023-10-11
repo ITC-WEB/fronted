@@ -37,13 +37,13 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/hero benner.png");
   background-size: cover;
 }
 
 header h1,
 header p {
-  color: #00000;
+  color: #FEFEFE;
 }
 
 header h1 {
@@ -116,12 +116,12 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .card-travel .travel-country {
   font-size: 18px;
-  color: #fff;
+  color: #000000;
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-location {
   font-size: 26px;
-  color: #fff;
+  color: #000000;
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
