@@ -440,8 +440,12 @@ header .btn-get-started:hover {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
-
+/*mengapa memilih kami*/
 .about-image {
-  widht: 400px;
+  width: 500px;
   height: 300px;
+}
+.rental {
+  color: #3258E8;
+  font-size: 18px;
 }
