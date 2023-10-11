@@ -449,3 +449,25 @@ header .btn-get-started:hover {
   color: #3258E8;
   font-size: 18px;
 }
+/*accordion*/
+.accordion1 {
+  font-size: 28px;
+}
+.accordion2 {
+  font-size: 16px;
+}
+
+/*cta*/
+.cta {
+  background-color: #071c4d;
+  border-radius: 20px;
+}
+.cta-text {
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.btncta {
+  background-color: #ff9e53;
+  color: #FEFEFE;
+  border-radius: 8px;
+}
