@@ -89,6 +89,7 @@ header .btn-get-started:hover {
   background: #051334;
   margin-top: -50px;
   margin-bottom: -230px;
+  
 }
 
 .section-popular .section-popular-heading {
@@ -469,4 +470,7 @@ header .btn-get-started:hover {
   background-color: #ff9e53;
   color: #FEFEFE;
   border-radius: 8px;
+}
+.staspopuler {
+  border-radius: 50px;
 }
