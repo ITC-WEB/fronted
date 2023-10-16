@@ -37,7 +37,7 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/hero benner.png");
+  background-image: url("../images/header-background1.jpg");
   background-size: cover;
 }
 
@@ -89,7 +89,6 @@ header .btn-get-started:hover {
   background: #051334;
   margin-top: -50px;
   margin-bottom: -230px;
-  
 }
 
 .section-popular .section-popular-heading {
@@ -464,11 +463,11 @@ header .btn-get-started:hover {
 }
 .cta-text {
   font-size: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btncta {
   background-color: #ff9e53;
-  color: #FEFEFE;
+  color: #fefefe;
   border-radius: 8px;
 }
 .staspopuler {
