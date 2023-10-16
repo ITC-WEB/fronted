@@ -17,12 +17,13 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071c4d;
+  color: #f7f7f7;
+  font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071c4d !important;
+  color: #ff9e53 !important;
 }
 
 .btn-login {
@@ -116,12 +117,12 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .card-travel .travel-country {
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-location {
   font-size: 26px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
