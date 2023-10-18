@@ -474,3 +474,20 @@ header .btn-get-started:hover {
 .staspopuler {
   border-radius: 50px;
 }
+
+/*tentang kami */
+.headertentangkami {
+  margin-top: -68px;
+  padding: 180px 0 165px;
+  background-image: url("../images/tentangkami.png");
+  background-size: cover;
+}
+.texttentangkami {
+  margin-left: 800px;
+}
+.tentangkamiconten1 {
+  font-size: 48px;
+}
+.pararaf-tentangkami {
+  font-size: 20px;
+}
