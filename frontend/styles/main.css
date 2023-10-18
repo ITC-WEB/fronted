@@ -482,12 +482,21 @@ header .btn-get-started:hover {
   background-image: url("../images/tentangkami.png");
   background-size: cover;
 }
-.texttentangkami {
-  margin-left: 800px;
-}
 .tentangkamiconten1 {
   font-size: 48px;
 }
 .pararaf-tentangkami {
   font-size: 20px;
+}
+.berposes1 {
+  color: #f8981d;
+  font-weight: bold;
+  font-size: 24px;
+}
+.berproses2 {
+  font-size: 32px;
+}
+
+.berproses3 {
+  font-size: 24px;
 }
