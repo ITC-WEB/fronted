@@ -507,3 +507,6 @@ header .btn-get-started:hover {
   background-image: url("../images/katalog.png");
   background-size: cover;
 }
+.cardkatalog {
+  border-radius: 100%;
+}
