@@ -510,3 +510,9 @@ header .btn-get-started:hover {
 .cardkatalog {
   border-radius: 100%;
 }
+.btndrop {
+  border-radius: 30px;
+}
+.cardku {
+  border-radius: 20px;
+}
