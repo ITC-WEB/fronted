@@ -507,11 +507,24 @@ header .btn-get-started:hover {
   background-image: url("../images/katalog.png");
   background-size: cover;
 }
+.bestcatalog {
+  color: #071c4d;
+  font-size: 40px;
+}
+.formfilter {
+  border-radius: 15px;
+}
 .cardkatalog {
   border-radius: 100%;
 }
 .btndrop {
   border-radius: 30px;
+  border-color: #071c4d;
+}
+
+.btndrop:hover {
+  background-color: #071c4d;
+  color: white;
 }
 .cardku {
   border-radius: 20px;
