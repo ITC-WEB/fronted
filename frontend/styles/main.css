@@ -27,7 +27,7 @@ body {
 }
 
 .btn-login {
-  background-color: #071c4d;
+  background-color: #ff9e53;
   color: #fff;
 }
 
@@ -215,14 +215,19 @@ header .btn-get-started:hover {
 .section-testimonials-content .btn-need-help:hover {
   color: #c3c3c3;
 }
-/*foooters*/
-.container-footer {
+/*footer*/
+.section-footer {
   background-color: #071c4d;
 }
-.section-footer a {
-  color: #071c4d;
+.footertxt {
+  color: #ffffff;
 }
-
+.section-footer a {
+  color: #ffffff;
+}
+.footerbawah {
+  background-color: #ffffff;
+}
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;

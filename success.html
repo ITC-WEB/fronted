@@ -5,22 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Details</title>
-    <link
-      rel="stylesheet"
-      href="frontend/libraries/bootstrap/css/bootstrap.css"
-    />
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="frontend/styles/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
     <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css" />
   </head>
+
   <body>
     <!-- Semantic elements -->
     <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
@@ -36,9 +28,7 @@
         </div>
         <ul class="navbar-nav mr-auto d-none d-lg-block">
           <li>
-            <span class="text-muted"
-              >| &nbsp; Beyond the explorer of the world</span
-            >
+            <span class="text-muted">| &nbsp; Beyond the explorer of the world</span>
           </li>
         </ul>
       </nav>
@@ -52,9 +42,7 @@
             We’ve sent you email for trip instruction <br />
             please read it as well
           </p>
-          <a href="index.html" class="btn btn-home-page mt-3 px-5">
-            Home Page
-          </a>
+          <a href="index.html" class="btn btn-home-page mt-3 px-5"> Home Page </a>
         </div>
       </div>
     </main>
@@ -63,22 +51,5 @@
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
     <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('.xzoom, .xzoom-gallery').xzoom({
-          zoomWidth: 500,
-          title: false,
-          tint: '#333',
-          Xoffset: 15
-        });
-
-        $('.datepicker').datepicker({
-          uiLibrary: 'bootstrap4',
-          icons: {
-            rightIcon: '<img src="frontend/images/ic_doe.png" alt="" />'
-          }
-        });
-      });
-    </script>
   </body>
 </html>
