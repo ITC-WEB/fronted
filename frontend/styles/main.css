@@ -215,7 +215,10 @@ header .btn-get-started:hover {
 .section-testimonials-content .btn-need-help:hover {
   color: #c3c3c3;
 }
-
+/*foooters*/
+.container-footer {
+  background-color: #071c4d;
+}
 .section-footer a {
   color: #071c4d;
 }
@@ -456,6 +459,31 @@ header .btn-get-started:hover {
 .accordion2 {
   font-size: 16px;
 }
+.card-header {
+  background-color: #ffffff;
+}
+.btn-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #071c4d;
+}
+.btn-link:hover {
+  color: #000000;
+}
+.card-body {
+  font-size: 19px;
+  color: #e66f14;
+}
+
+/* Gaya untuk tanda buka-tutup di samping */
+.accordion-button::after {
+  content: "\f067"; /* Unicode untuk tanda panah bawah */
+  font-family: "Font Awesome 5 Free";
+  float: right;
+}
+.collapsed .accordion-button::after {
+  content: "\f068"; /* Unicode untuk tanda panah atas saat tertutup */
+}
 
 /*cta*/
 .cta {
@@ -476,7 +504,7 @@ header .btn-get-started:hover {
 }
 
 /*syaratketentuan*/
-header {
+.headersdany {
   margin-top: -68px;
   padding: 180px 0 165px;
   background-image: url("../images/benersyaratketentuan.png");
