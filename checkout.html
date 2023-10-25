@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -11,161 +12,121 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
     <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Semantic elements -->
     <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
 
     <!-- Bootstrap navbar example -->
     <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
     <div class="container">
-      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
-          <a class="navbar-brand" href="index.html">
-            <img src="frontend/images/logo.png" alt="" />
-          </a>
-        </div>
-        <ul class="navbar-nav mr-auto d-none d-lg-block">
-          <li>
-            <span class="text-muted">| &nbsp; Beyond the explorer of the world</span>
-          </li>
-        </ul>
-      </nav>
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a class="navbar-brand" href="index.html">
+                    <img src="frontend/images/logo.png" alt="" />
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">| &nbsp; Beyond the explorer of the world</span>
+                </li>
+            </ul>
+        </nav>
     </div>
     <main>
-      <section class="section-details-header"></section>
-      <section class="section-details-content">
-        <div class="container">
-          <div class="row">
-            <div class="col p-0 pl-3 pl-lg-0">
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item" aria-current="page">Paket Travel</li>
-                  <li class="breadcrumb-item" aria-current="page">Details</li>
-                  <li class="breadcrumb-item active" aria-current="page">Checkout</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-8 pl-lg-0">
-              <div class="card card-details mb-3">
-                <h1>Form Perngisian Data Rental</h1>
-                <p>Malang, Indonesia</p>
-                <div class="member mt-3">
-                  <form>
-                    <div class="form-group">
-                      <label for="inputUsername" class="font-weight-bold">Nama </label>
-                      <input type="text" class="form-control" id="inputUsername" placeholder="Username" />
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0 pl-3 pl-lg-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item" aria-current="page">Paket Travel</li>
+                                <li class="breadcrumb-item" aria-current="page">Details</li>
+                                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                            </ol>
+                        </nav>
                     </div>
-                    <div class="form-group row">
-                      <div class="col-md-6 col-sm-6 mb-3">
-                        <label for="inputEmail" class="font-weight-bold">Email </label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" />
-                      </div>
-                      <div class="col-md-6 col-sm-6">
-                        <label for="inputPhone" class="font-weight-bold">Phone </label>
-                        <input type="tel" class="form-control" id="inputPhone" placeholder="Phone" />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <div class="col-md-6 col-sm-6 mb-3">
-                        <label for="tanggalMulai" class="font-weight-bold">Tanggal Mulai</label>
-                        <div class="input-group">
-                          <input type="text" class="form-control datepicker" id="tanggalMulai" placeholder="Tanggal Mulai" />
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 mb-3">
-                        <label for="tanggalSelesai" class="font-weight-bold">Tanggal Selesai</label>
-                        <div class="input-group">
-                          <input type="text" class="form-control datepicker" id="tanggalSelesai" placeholder="Tanggal Selesai" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputKTP" class="font-weight-bold">Upload KTP</label>
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputKTP" accept=".jpg, .jpeg, .png, .pdf" />
-                        <label class="custom-file-label" for="inputKTP">Choose file</label>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputSIM" class="font-weight-bold">Upload SIM</label>
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputSIM" accept=".jpg, .jpeg, .png, .pdf" />
-                        <label class="custom-file-label" for="inputSIM">Choose file</label>
-                      </div>
-                    </div>
-
-                    <div class="form-group">
-                      <button type="submit" class="btn btn-add-now px-4">Add Now</button>
-                    </div>
-                  </form>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card card-details card-right">
-                <h2>Checkout Information</h2>
-                <table class="trip-informations">
-                  <tr>
-                    <th width="50%">Members</th>
-                    <td width="50%" class="text-right">2 person</td>
-                  </tr>
-                  <tr>
-                    <th width="50%">Additional Visa</th>
-                    <td width="50%" class="text-right">$ 190,00</td>
-                  </tr>
-                  <tr>
-                    <th width="50%">Trip Price</th>
-                    <td width="50%" class="text-right">$ 80,00 / person</td>
-                  </tr>
-                  <tr>
-                    <th width="50%">Sub Total</th>
-                    <td width="50%" class="text-right">$ 280,00</td>
-                  </tr>
-                  <tr>
-                    <th width="50%">Total (+Unique)</th>
-                    <td width="50%" class="text-right text-total"><span class="text-blue">$ 279,</span><span class="text-orange">33</span></td>
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details mb-3">
+                            <h1>Form Perngisian Data Rental</h1>
+                            <p>Malang, Indonesia</p>
+                            <div class="member mt-3">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="inputUsername" class="font-weight-bold">Nama </label>
+                                        <input type="text" class="form-control" id="inputUsername" placeholder="Username" />
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-6 col-sm-6 mb-3">
+                                            <label for="inputEmail" class="font-weight-bold">Email </label>
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" />
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <label for="inputPhone" class="font-weight-bold">Phone </label>
+                                            <input type="tel" class="form-control" id="inputPhone" placeholder="Phone" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-6 col-sm-6 mb-3">
+                                            <label for="tanggalMulai" class="font-weight-bold">Tanggal Mulai</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control datepicker" id="tanggalMulai" placeholder="Tanggal Mulai" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-3">
+                                            <label for="tanggalSelesai" class="font-weight-bold">Tanggal Selesai</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control datepicker" id="tanggalSelesai" placeholder="Tanggal Selesai" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputKTP" class="font-weight-bold">Upload KTP</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="inputKTP" accept=".jpg, .jpeg, .png, .pdf" />
+                                            <label class="custom-file-label" for="inputKTP">Choose file</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputSIM" class="font-weight-bold">Upload SIM</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="inputSIM" accept=".jpg, .jpeg, .png, .pdf" />
+                                            <label class="custom-file-label" for="inputSIM">Choose file</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="join-container mt-5">
+                                            <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">I Have Made Payment</a>
+                                        </div>
+                                        <div class="text-center mt-3">
+                                            <a href="#" class="text-muted">Cancel Booking</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right">
+                            <h2>Checkout Information</h2>
+                            <table class="trip-informations">
+                                <tr>
+                                    <th width="50%">Mobil</th>
+                                    <td width="50%" class="text-right">Avanza</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Supir</th>
+                                    <td width="50%" class="text-right">Rp. 100.000/hari</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Total</th>
+                                    <td width="50%" class="text-right text-total"><span class="text-blue">Rp. 1000.000</td>
                   </tr>
                 </table>
-
-                <hr />
-                <h2>Payment Instructions</h2>
-                <p class="payment-instructions">Please complete your payment before to continue the wonderful trip</p>
-                <div class="bank">
-                  <div class="bank-item pb-3">
-                    <img src="frontend/images/ic_bank.png" alt="" class="bank-image" />
-                    <div class="description">
-                      <h3>PT Nomads ID</h3>
-                      <p>
-                        0881 8829 8800
-                        <br />
-                        Bank Central Asia
-                      </p>
-                    </div>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="bank-item">
-                    <img src="frontend/images/ic_bank.png" alt="" class="bank-image" />
-                    <div class="description">
-                      <h3>PT Nomads ID</h3>
-                      <p>
-                        0899 8501 7888
-                        <br />
-                        Bank HSBC
-                      </p>
-                    </div>
-                    <div class="clearfix"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="join-container">
-                <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">I Have Made Payment</a>
-              </div>
-              <div class="text-center mt-3">
-                <a href="#" class="text-muted">Cancel Booking</a>
               </div>
             </div>
           </div>
