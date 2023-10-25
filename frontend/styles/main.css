@@ -525,3 +525,20 @@ header .btn-get-started:hover {
 .error {
   font-size: 34px;
 }
+
+/*login */
+.email {
+  width: 480px;
+}
+.password {
+  width: 480px;
+}
+.masuk {
+  width: 200px;
+  background-color: #e66f14;
+  border-radius: 20px;
+  border: none;
+}
+.akun {
+  font-size: 14px;
+}
