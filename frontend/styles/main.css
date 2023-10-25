@@ -508,37 +508,57 @@ header .btn-get-started:hover {
   border-radius: 50px;
 }
 
-/*syaratketentuan*/
-.headersdany {
+/*tentang kami */
+.headertentangkami {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/benersyaratketentuan.png");
+  background-image: url("../images/tentangkami.png");
   background-size: cover;
 }
-/*kontak */
-
-.tulisan {
-  font-size: 25px;
+.tentangkamiconten1 {
+  font-size: 48px;
+}
+.pararaf-tentangkami {
+  font-size: 20px;
+}
+.berposes1 {
+  color: #f8981d;
+  font-weight: bold;
+  font-size: 24px;
+}
+.berproses2 {
+  font-size: 32px;
 }
 
-/*error page */
-.error {
-  font-size: 34px;
+.berproses3 {
+  font-size: 24px;
+}
+/*Katalog */
+.headerkatalog {
+  margin-top: -68px;
+  padding: 180px 0 165px;
+  background-image: url("../images/katalog.png");
+  background-size: cover;
+}
+.bestcatalog {
+  color: #071c4d;
+  font-size: 40px;
+}
+.formfilter {
+  border-radius: 15px;
+}
+.cardkatalog {
+  border-radius: 100%;
+}
+.btndrop {
+  border-radius: 30px;
+  border-color: #071c4d;
 }
 
-/*login */
-.email {
-  width: 480px;
+.btndrop:hover {
+  background-color: #071c4d;
+  color: white;
 }
-.password {
-  width: 480px;
-}
-.masuk {
-  width: 200px;
-  background-color: #e66f14;
+.cardku {
   border-radius: 20px;
-  border: none;
-}
-.akun {
-  font-size: 14px;
 }
