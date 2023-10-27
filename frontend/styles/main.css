@@ -573,3 +573,21 @@ header .btn-get-started:hover {
 .cardku {
   border-radius: 20px;
 }
+
+/*login */
+.akun {
+  font-size: 14px;
+}
+.email {
+  width: 450px;
+}
+.password {
+  width: 450px;
+}
+.masuk {
+  width: 200px;
+  background-color: #ff9e53;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+}
