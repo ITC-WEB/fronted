@@ -573,3 +573,17 @@ header .btn-get-started:hover {
 .cardku {
   border-radius: 20px;
 }
+/*kontak */
+.headerkontak {
+  margin-top: -68px;
+  padding: 180px 0 165px;
+  background-image: url("../images/bannerkontak.png");
+  background-size: cover;
+}
+
+/*sdany*/
+.headersdany {
+  padding: 180px 0 165px;
+  background-image: url("../images/benersyaratketentuan.png");
+  background-size: cover;
+}
