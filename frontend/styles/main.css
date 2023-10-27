@@ -17,8 +17,8 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #f7f7f7;
-  font-weight: bold;
+  color: #000000;
+  font-weight: medium;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -216,11 +216,16 @@ header .btn-get-started:hover {
   color: #c3c3c3;
 }
 /*footer*/
+.footer-brand img {
+  max-height: 60px;
+}
+
 .section-footer {
   background-color: #071c4d;
 }
 .footertxt {
   color: #ffffff;
+  font-weight: bold;
 }
 .section-footer a {
   color: #ffffff;
@@ -470,14 +475,16 @@ header .btn-get-started:hover {
 .btn-link {
   font-size: 20px;
   text-decoration: none;
-  color: #071c4d;
+  color: #0f0f0f;
+  font-weight: bold;
 }
 .btn-link:hover {
   color: #000000;
 }
 .card-body {
   font-size: 19px;
-  color: #e66f14;
+  color: #000000;
+  font-weight: light;
 }
 
 /* Gaya untuk tanda buka-tutup di samping */
@@ -496,8 +503,13 @@ header .btn-get-started:hover {
   border-radius: 20px;
 }
 .cta-text {
-  font-size: 40px;
+  font-size: 36px;
   color: #ffffff;
+}
+.cta-text1 {
+  font-size: 36px;
+  color: #ff9e53;
+  font-weight: bold;
 }
 .btncta {
   background-color: #ff9e53;
@@ -507,7 +519,6 @@ header .btn-get-started:hover {
 .staspopuler {
   border-radius: 50px;
 }
-
 /*tentang kami */
 .headertentangkami {
   margin-top: -68px;
