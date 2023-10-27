@@ -573,6 +573,7 @@ header .btn-get-started:hover {
 .cardku {
   border-radius: 20px;
 }
+
 /*kontak */
 .headerkontak {
   margin-top: -68px;
@@ -586,4 +587,22 @@ header .btn-get-started:hover {
   padding: 180px 0 165px;
   background-image: url("../images/benersyaratketentuan.png");
   background-size: cover;
+}
+
+/*login */
+.akun {
+  font-size: 14px;
+}
+.email {
+  width: 450px;
+}
+.password {
+  width: 450px;
+}
+.masuk {
+  width: 200px;
+  background-color: #ff9e53;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
 }
