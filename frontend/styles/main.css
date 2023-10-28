@@ -565,6 +565,9 @@ header .btn-get-started:hover {
   border-radius: 30px;
   border-color: #071c4d;
 }
+.info a {
+  text-decoration: none;
+}
 
 .btndrop:hover {
   background-color: #071c4d;
