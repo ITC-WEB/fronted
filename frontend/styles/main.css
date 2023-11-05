@@ -522,7 +522,7 @@ header .btn-get-started:hover {
 /*tentang kami */
 .headertentangkami {
   margin-top: -68px;
-  padding: 180px 0 165px;
+  padding: 100px 0 100px;
   background-image: url("../images/tentangkami.png");
   background-size: cover;
 }
@@ -547,7 +547,7 @@ header .btn-get-started:hover {
 /*Katalog */
 .headerkatalog {
   margin-top: -68px;
-  padding: 180px 0 165px;
+  padding: 100px 0 100px;
   background-image: url("../images/katalog.png");
   background-size: cover;
 }
@@ -567,8 +567,19 @@ header .btn-get-started:hover {
 }
 .info a {
   text-decoration: none;
+  color: black;
 }
 
+.des-a {
+  font-size: 16px;
+}
+.des-b {
+  font-size: 16px;
+}
+.des-a1 {
+  font-size: 16px;
+  color: #0094fe;
+}
 .btndrop:hover {
   background-color: #071c4d;
   color: white;
@@ -580,14 +591,15 @@ header .btn-get-started:hover {
 /*kontak */
 .headerkontak {
   margin-top: -68px;
-  padding: 180px 0 165px;
+  padding: 100px 0 100px;
   background-image: url("../images/bannerkontak.png");
   background-size: cover;
 }
 
 /*sdany*/
 .headersdany {
-  padding: 180px 0 165px;
+  margin-top: -68px;
+  padding: 100px 0 100px;
   background-image: url("../images/benersyaratketentuan.png");
   background-size: cover;
 }
