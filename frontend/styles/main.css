@@ -125,6 +125,12 @@ header .btn-get-started:hover {
   color: #ffffff;
 }
 
+/*detail*/
+.fiturtersedia h2 i {
+  font-size: 25px; /* Mengatur ukuran font ikon */
+  color: #0094fe;
+}
+
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
   background-color: #ff9e53;
   color: #fff;
@@ -235,7 +241,7 @@ header .btn-get-started:hover {
 }
 .section-details-header {
   min-height: 310px;
-  background: #e4e6eb;
+  background: #071c4d;
   margin-top: -68px;
 }
 
@@ -248,11 +254,12 @@ header .btn-get-started:hover {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071c4d;
+  color: #ffffff;
 }
 
 .section-details-content .card-details {
@@ -318,7 +325,7 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .gallery .xzoom-container .xzoom {
-  width: 100%;
+  width: 98%;
   -webkit-box-shadow: none;
   box-shadow: none;
   margin-bottom: 10px;
@@ -580,6 +587,12 @@ header .btn-get-started:hover {
 .des-a1 {
   font-size: 16px;
   color: #f8981d;
+}
+.icons1 {
+  margin-right: 11px;
+}
+.icons2 {
+  margin-right: 9px;
 }
 .btndrop:hover {
   background-color: #071c4d;
