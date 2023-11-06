@@ -434,9 +434,9 @@ header .btn-get-started:hover {
   padding-right: 30px;
 }
 
-.section-success {
+/* .section-success {
   height: 90vh;
-}
+} */
 
 .section-success h1 {
   font-weight: 600;
@@ -665,4 +665,34 @@ header .btn-get-started:hover {
 }
 .link-masuk:hover {
   color: #071c4d;
+}
+/*statuscekout*/
+.bri {
+  width: 200px;
+}
+.card {
+  width: 650px;
+  height: 430px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.keterangan {
+  font-size:20px;
+}
+.input {
+  width: 700px;
+}
+.btnstatus {
+  background-color: #071c4d;
+  width: 100px;
+  border: none;
+  color: #ffffff;
+}
+.center-table {
+  width: 50%;
+  margin: auto;
+}
+.copy-icon {
+  margin-left: 5px;
+  cursor: pointer;
 }
