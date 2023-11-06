@@ -575,10 +575,11 @@ header .btn-get-started:hover {
 }
 .des-b {
   font-size: 16px;
+  color: #071c4d;
 }
 .des-a1 {
   font-size: 16px;
-  color: #0094fe;
+  color: #f8981d;
 }
 .btndrop:hover {
   background-color: #071c4d;
