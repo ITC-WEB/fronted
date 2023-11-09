@@ -670,14 +670,14 @@ header .btn-get-started:hover {
 .bri {
   width: 200px;
 }
-.card {
+.card-status {
   width: 650px;
-  height: 430px; 
+  height: 430px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 .keterangan {
-  font-size:20px;
+  font-size: 20px;
 }
 .input {
   width: 700px;
